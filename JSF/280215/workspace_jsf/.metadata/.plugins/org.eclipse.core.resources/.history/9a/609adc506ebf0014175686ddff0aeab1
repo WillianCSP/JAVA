@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	<h:body>
+		<h1>Usuário</h1>
+		<h:form>
+			<fieldset>
+				<legend>Dados</legend>
+				<h:panelGrid columns="2">
+					<h:outputLabel value="Nome:" for="nome" />
+					<h:inputText id="nome" value="#{usuarioBean.nome}" label="Nome"
+					required="true" requiredMessage="Nome é obrigatório">
+					<f:validateLength minimum="6" maximum="20"/>
+					<f:validateRegex pattern="[a-zA-Z]{6,20}"/>
+					</h:inputText>
+					<br/>
+					<h:message for="campo-nome" class="errorMsg"/>
+					<h:outputLabel value="Idade:" for="idade" />
+					<h:inputText id="idade" value="#{usuarioBean.idade}" 
+					required="true" requiredMessage="Idade é obrigatória"/>
+				<h:commandButton value="Gravar" action="#{usuarioBean.gravar}" />
+			</h:panelGrid>
+			</fieldset>
+		</h:form>
+	</h:body>
+
+</html>

@@ -1,0 +1,7 @@
+INDEX VERSION 1.122+/home/java06/workspace_jsf/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+3518502761.index
+3839565349.index
+3782226411.index
+4253132341.index
+1738892917.index
+3846073077.index

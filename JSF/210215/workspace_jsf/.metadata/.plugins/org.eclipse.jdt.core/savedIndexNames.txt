@@ -1,0 +1,21 @@
+INDEX VERSION 1.126+/home/java06/workspace_jsf/.metadata/.plugins/org.eclipse.jdt.core
+1804074643.index
+2842041751.index
+3640391321.index
+1534832694.index
+3084331035.index
+2100552446.index
+264412873.index
+2396612121.index
+2702349449.index
+1317964244.index
+217986515.index
+4019534436.index
+4141117206.index
+443793019.index
+942079895.index
+903541306.index
+3029562558.index
+3570423268.index
+28907821.index
+4108955676.index

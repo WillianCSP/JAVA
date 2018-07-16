@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional. dtd">
+
+<html xmlns ="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+	
+<h:head>
+	<title>Dados do Usuário</title>
+</h:head>
+
+<h:body>
+	<h3>Dados do usuário</h3>
+	<h:form >
+		<h:outputLabel value ="Nome : " for ="campo-nome" />
+		<h:inputText label="nome" value ="#{usuarioBean.nome}" 
+			id="campo-nome" required="true" requiredMessage="Ñome não pode ser vazio!">
+			<f:validateLength minimum= "6" maximum = "20"/>
+			<f:validateRegex pattern="[a-zA-Z]{6,20}" />
+		</h:inputText>
+		<br/>
+		<h:message for="campo-nome" class="errorMsg"/>
+		
+		<h:outputLabel value ="Idade : " for ="campo-idade" />
+		<h:inputText label="Idade" value ="#{usuarioBean.idade}" id="campo-idade" 
+			required="true" requiredMessage="Preencha o campo Idade!">
+			<f:validateLongRange minimum ="18" maximum ="60"/>
+		</h:inputText>
+		<br/>	
+		<h:message for="campo-idade" class="errorMsg"/>
+		
+		<h:messages/>
+		
+		<h:commandButton value ="Enviar" />
+	</h:form >
+	<br/>
+	<hr/>
+	<h:panelGrid rendered="#{not empty usuarioBean.nome}">
+			O nome do usuário é <b>#{usuarioBean.nome}</b>
+			e sua idade é <b>#{usuarioBean.idade}</b>.	
+	</h:panelGrid>
+
+</h:body>
+
+</html>

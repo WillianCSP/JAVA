@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Novo Post</title>
+</h:head>
+
+<h:body>
+	<h1>Novo Post</h1>
+	<br />
+	<hr />
+	<h:form>
+		<p:panel id="pnlCriaPost" header="Cria novo Post" toggleable="true"
+			closable="false" toggleSpeed="500" onCloseUpdate="growl"
+			closeSpeed="2000" onToggleUpdate="growl" widgetVar="panel">
+			<h:panelGrid columns="3" cellpadding="10">
+				<label>Titulo</label>
+
+				<h:inputText label="Titulo" id="lblTitulo"
+					value="#{postBean.post.titulo}"
+					validatorMessage="Atenção, este campo deve conter entre 6 a 15 caracteres!"
+					required="true">
+					<f:validateLength minimum="6" maximum="15" />
+					<f:ajax event="keyup" execute="lblTitulo" render="errMsgTitulo" />
+				</h:inputText>
+				<h:message id="errMsgTitulo" for="lblTitulo" class="errorMsg" />
+
+				<label>Autor</label>
+				<h:inputText label="Autor" id="lblAutor"
+					value="#{postBean.post.autor}"
+					validatorMessage="Atenção, este campo deve conter de 6 a 20 LETRAS!">
+					<f:validateRegex pattern="(([a-zA-Z]).{6,30})" />
+					<f:ajax event="keyup" execute="lblAutor" render="errMsgAutor" />
+				</h:inputText>
+				<h:message id="errMsgAutor" for="lblAutor" class="errorMsg"
+					showSummary="true" showDetail="true" />
+
+				<label>Conteúdo</label>
+				<h:inputTextarea label="Conteúdo" id="lblConteudo"
+					value="#{postBean.post.conteudo}" required="true"
+					validatorMessage="Atenção, preechimento obrigatório!">
+					<f:ajax event="keyup" execute="lblConteudo" render="errMsgConteudo" />
+				</h:inputTextarea>
+				<h:message id="errMsgConteudo" for="lblConteudo" class="errorMsg" />
+
+				<label>URL</label>
+				<h:inputTextarea label="URL" id="lblUrl"
+					value="#{postBean.post.bookmarkURL}" required="true"
+					validatorMessage="Atenção, preechimento obrigatório!">
+					<!--  <f:converter converterId="br.dextra.URLConverter"/>-->
+				</h:inputTextarea>
+				<h:message id="errMsgUrl" for="lblUrl" class="errorMsg" />
+
+				<h:commandButton title="Salvar" value="Salvar"
+					action="#{postBean.adicionaPost}" />
+			</h:panelGrid>
+		</p:panel>
+		<h:messages />
+	</h:form>
+	<br />
+	<hr />
+	<h:form>
+		<h:commandLink value="Voltar" action="blog-home" />
+	</h:form>
+</h:body>
+</html>

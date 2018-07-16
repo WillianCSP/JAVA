@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Super exemplo</title>
+<link rel="stylesheet" href="./css/common.css">
+</head>
+<body>
+	<script type="text/javascript" src="./js/jquery-1.11.2.min.js"></script>
+	<h1>Super exemplo master</h1>
+
+	<p class="importante" id="primeiro">Este é um parágrafo de texto da
+		minha página</p>
+	<div class="importante">Este é um parágrafo também importante mas
+		não é o primeiro</div>
+	<p>Este é um outro parágrafo de texto da minha página</p>
+	<button onclick="saudacao();">Saudação</button>
+	<a href="./outra-pagina.html">Outra página</a>
+	<script type="text/javascript">
+		function saudacao() {
+			$('#primeiro').fadeToggle();
+		}
+	</script>
+</body>
+</html>

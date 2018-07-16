@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional. dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+<h:head>
+	<title>Template Com links de navegação</title>
+</h:head>
+
+<h:body>
+
+
+
+	<div id="header">
+		<img src="images/logo_dextra.png" />
+		<br/>
+		<h1 style="text-alignment:left" >Novo modelo de template</h1>
+		<hr />
+	</div>
+	
+	<h:link value ="Componentes Visuais" outcome ="navegacao1-componentes-visuais.xhtml"/> -
+	<h:link value ="Templates e Modularização" outcome ="navegacao2-templates-e-modularizacao.xhtml"/> -
+	<h:link value ="Navegação" outcome ="navegacao3-navegacao.xhtml"/>
+
+	<ui:insert name="corpo-da-pagina">Espaço para o conteúdo da tela</ui:insert>
+	
+	<hr />
+	<div id="navegacao" >
+		<h:form >
+			<h:commandButton value ="Anterior" action ="anterior"/>
+			<h:commandButton value ="Próximo" action ="proximo"/>
+		</h:form >
+	</div>
+
+	<div id="footer" style="text-align: center">
+		<hr />
+		© Dextraining 2014.
+	</div>
+</h:body>
+</html>

@@ -1,0 +1,260 @@
+!SESSION 2015-02-21 11:24:11.130 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130530-1430
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product -data /home/java06/workspace_jsf -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 12:06:30.470
+!MESSAGE Module jsf-livraria published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-02-21 12:06:30.585
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 2 16842784 2015-02-21 12:06:47.368
+!MESSAGE Poll Thread Aborted: null
+
+!ENTRY org.jboss.ide.eclipse.as.core 4 16973826 2015-02-21 12:06:47.811
+!MESSAGE The server was shutdown forcefully. All processes were terminated.
+!SESSION 2015-02-21 12:07:09.240 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130530-1430
+java.version=1.8.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=pt_BR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 12:07:47.321
+!MESSAGE Module jsf-livraria published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-02-21 12:07:47.903
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-02-21 12:08:11.305
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-02-21 12:12:55.355
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-02-21 12:13:13.255
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-02-21 12:13:39.105
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-02-21 12:14:33.367
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 13:59:26.132
+!MESSAGE Module jsf-livraria published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-02-21 13:59:28.209
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-02-21 13:59:55.253
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 14:01:16.535
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 14:01:44.448
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 14:14:23.848
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 14:15:53.977
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 14:16:20.365
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 14:20:07.249
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 14:20:16.241
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 14:23:01.217
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 14:27:02.003
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 14:59:53.307
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-02-21 15:03:17.383
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-02-21 15:03:21.741
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:12:22.645
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:12:25.848
+!MESSAGE Module jsf-livraria published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:14:07.615
+!MESSAGE Module jsf-livraria published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:24:48.262
+!MESSAGE Module jsf-livraria published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-02-21 15:24:51.491
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-02-21 15:25:16.453
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:26:10.603
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:26:34.940
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:26:41.742
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:26:49.150
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:26:56.782
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:27:35.877
+!MESSAGE 2 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-02-21 15:27:59.701
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:29:12.115
+!MESSAGE Module jsf-livraria published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-02-21 15:29:14.053
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-02-21 15:29:38.695
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:46:14.685
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-02-21 15:46:18.802
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-02-21 15:46:22.663
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 15:50:02.094
+!MESSAGE Module jsf-livraria published without error.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-02-21 15:50:03.684
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-02-21 15:50:28.543
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:18:19.502
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:20:07.877
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:20:49.552
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:21:04.323
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:21:27.815
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:22:54.699
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:23:15.101
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:27:49.815
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:27:57.857
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:28:22.186
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-02-21 16:28:25.169
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-02-21 16:29:31.994
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-02-21 16:29:58.548
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:30:41.796
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:31:07.488
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:31:31.822
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-02-21 16:35:01.295
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-02-21 16:35:04.923
+!MESSAGE Server processes have been terminated.
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:38:10.746
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2015-02-21 16:38:10.814
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2015-02-21 16:38:37.799
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:39:12.409
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:39:40.172
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:42:23.622
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:43:50.850
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:44:18.126
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 16:44:42.812
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 17:05:01.518
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 17:05:10.047
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 17:05:32.438
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 17:11:31.292
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 0 33685505 2015-02-21 17:24:47.877
+!MESSAGE 1 files modified in module jsf-livraria
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2015-02-21 17:28:51.610
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16973825 2015-02-21 17:28:55.744
+!MESSAGE Server processes have been terminated.

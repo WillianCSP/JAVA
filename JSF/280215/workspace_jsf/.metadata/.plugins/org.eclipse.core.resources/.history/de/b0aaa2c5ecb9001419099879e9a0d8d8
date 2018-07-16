@@ -1,0 +1,9 @@
+package br.com.dextra.livraria.bean;
+
+public class Livro {
+
+	private String titulo;
+	private String isbn;
+	private double preco;
+	private String dataLancamento;
+}

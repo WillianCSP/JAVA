@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core">
+
+	<h:body>
+		<h1>Conversor</h1>
+		<h:form>
+			<fieldset>
+				<legend>Dados</legend>
+				<h:panelGrid columns="2">
+					<h:outputLabel value="Valor" for="valor" />
+					<h:inputText id="valor" value="#{conversorMonetarioBean.valor}" label="Valor"
+					required="true" requiredMessage="Valor é obrigatório">
+					</h:inputText>
+					
+					<h:message for="valor" class="errorMsg"/>
+					
+					<h:selectOneMenu value="#{conversorMonetarioBean.de}" id="de">
+					<f:selectItems
+					value="#{conversorMonetarioBean.taxas.keySet()}"
+					var="moeda"
+					itemValue="#{moeda}"
+					itemLabel="#{moeda}"/>
+					</h:selectOneMenu>
+					
+					<h:outputLabel value="para" for="para"/>
+					
+					<h:selectOneMenu value="#{conversorMonetarioBean.para}" id="para">
+					<f:selectItems
+					value="#{conversorMonetarioBean.taxas.keySet()}"
+					var="moeda"
+					itemValue="#{moeda}"
+					itemLabel="#{moeda}"/>
+					</h:selectOneMenu>
+				<h:commandButton value="Converter" action="#{conversorMonetarioBean.converter}"/> 
+			</h:panelGrid>
+			
+			</fieldset>
+		</h:form>
+		
+		<hr/>
+		<h:panelGrid rendered="#{not empty usuarioBean.nome}">
+		O nome do usuário é <b>#{usuarioBean.nome}</b>
+		e sua idade é <b>#{usuarioBean.idade}</b>
+		</h:panelGrid>
+	</h:body>
+
+</html>

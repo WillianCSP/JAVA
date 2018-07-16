@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/tmp" key="defaultDestinationPath"/>
+	<item value="/home/java06" key="defaultDialogPath"/>
+	<item value="true" key="deleteOnExit"/>
+	<section name="downloadRuntimeSection">
+		<item value="true" key="org.jboss.tools.runtime.core.as.711"/>
+	</section>
+</section>

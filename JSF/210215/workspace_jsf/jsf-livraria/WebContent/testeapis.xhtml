@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>Validando componentes JSF</title>
+</h:head>
+
+<h:body>
+	<h2>Validando componentes JSF</h2>
+	<br />
+	
+	<h:outputLabel value="Data" for="data" />
+	<p:calendar id="data" />
+	
+	<br />
+
+	<p:panel id="panel" header="JSF - Componentes para Web">
+         me arraste!
+     </p:panel>
+     
+     <br />
+     
+	 <p:draggable for="panel" />
+	<p:schedule />
+</h:body>
+</html>
