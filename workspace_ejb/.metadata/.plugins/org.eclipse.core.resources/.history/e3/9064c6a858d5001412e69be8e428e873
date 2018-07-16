@@ -1,0 +1,15 @@
+package br.com.dextra.livraria.interceptador;
+
+public class LogInterceptador {
+
+	
+	public Object intercepta(){
+		
+		 long millis = System.currentTimeMillis(); 
+		 
+		  // chamada do método do dao 
+		 
+		  System.out.println("Tempo gasto:  " + (System.currentTimeMillis(), millis)); 
+
+	}
+}

@@ -1,0 +1,9 @@
+package br.com.dextra.livraria.interceptador;
+
+public class LogInterceptador {
+
+	
+	public Object intercepta(){
+		
+	}
+}

@@ -1,0 +1,8 @@
+package br.com.dextra.livraria.webservice;
+
+import javax.ejb.Stateless;
+
+@Stateless
+public class LivrariaWS {
+
+}
